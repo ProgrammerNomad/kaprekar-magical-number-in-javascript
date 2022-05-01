@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Kapreka's Number</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="./jquery-3.4.1.min.js"></script>
+  </head>
+  <body>
+    <div class="cont1" id="sec1">
+      <h1>Kaprekar's Number</h1>
+      <h1>6174</h1>
+      <p>Give me a 4 digit number</p>
+      <p id="two">And I will show you how to get 6174 from it</p>
+      <div class="quantity">
+        <div id="form">
+          <input
+            id="oone"
+            type="number"
+            min="0"
+            max="9"
+            step="1"
+            placeholder="0"
+          />
+          <input
+            id="ttwo"
+            type="number"
+            min="0"
+            max="9"
+            step="1"
+            placeholder="0"
+          />
+          <input
+            id="tthree"
+            type="number"
+            min="0"
+            max="9"
+            step="1"
+            placeholder="0"
+          />
+          <input
+            id="ffour"
+            type="number"
+            min="0"
+            max="9"
+            step="1"
+            placeholder="0"
+          />
+        </div>
+        <button id="btn" type="button">show</button>
+      </div>
+      <div>
+        <p id="show"></p>
+      </div>
+
+      <div class="control">
+        <button id="btn2" style="opacity:0" type="button">
+          <a href="#sec2">Show me</a>
+        </button>
+      </div>
+    </div>
+
+    <div class="cont2" id="sec2">
+      <div>
+        <div class="header"></div>
+        <p id="down">
+          With Kaprekar's routine, we will always reach a number's fixed point,
+          6174, in at most 7 iterations.
+        </p>
+        <p id="thus">
+          Thus, the number <span id="sap"></span> yields 6174 in
+          <span id="sap2"></span> steps.
+        </p>
+      </div>
+      <div id="content">
+        <p>
+          <span id="spa1"></span> <span id="spa4"></span>
+          <span id="spa2"></span> <span id="spa5"></span>
+          <span id="spa3"></span>
+        </p>
+        <p>
+          <span id="spa11"></span> <span id="spa14"></span>
+          <span id="spa12"></span> <span id="spa15"></span>
+          <span id="spa13"></span>
+        </p>
+        <p>
+          <span id="spa21"></span> <span id="spa24"></span>
+          <span id="spa22"></span> <span id="spa25"></span>
+          <span id="spa23"></span>
+        </p>
+        <p>
+          <span id="spa31"></span> <span id="spa34"></span>
+          <span id="spa32"></span> <span id="spa35"></span>
+          <span id="spa33"></span>
+        </p>
+        <p>
+          <span id="spa41"></span> <span id="spa44"></span>
+          <span id="spa42"></span> <span id="spa45"></span>
+          <span id="spa43"></span>
+        </p>
+        <p>
+          <span id="spa51"></span> <span id="spa54"></span>
+          <span id="spa52"></span> <span id="spa55"></span>
+          <span id="spa53"></span>
+        </p>
+        <p>
+          <span id="spa61"></span> <span id="spa64"></span>
+          <span id="spa62"></span> <span id="spa65"></span>
+          <span id="spa63"></span>
+        </p>
+      </div>
+      <div>
+        <a href="#sec1"
+          ><i class="fas fa-arrow-up" id="arrow" href="#sec1"> </i
+        ></a>
+      </div>
+    </div>
+    <script src="./js.js"></script>
+    <script src="https://kit.fontawesome.com/6a3a3a5f7f.js"></script>
+
+    <!-- <script>
+              function resetForm() {
+        document.getElementById("#form").reset();
+      }
+    </script> -->
+  </body>
+</html>
