@@ -96,3 +96,6 @@ p {
 .present {
   display: block;
 }
+.hide{
+  display: none;
+}

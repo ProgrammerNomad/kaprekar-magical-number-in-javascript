@@ -1,7 +1,7 @@
 $(document).ready(function() {
   // $("#sec2").hide();
   $("#btn").click(function() {
-    $("#btn2").css("opacity", "1");
+
 
     function myFunction1() {
       var x = "It takes 1 step to get to 6174";
@@ -374,6 +374,8 @@ $(document).ready(function() {
         myFunction1();
       }
     }
+
+    $("#btn2").show();
   });
 });
 
